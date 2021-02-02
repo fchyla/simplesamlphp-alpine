@@ -7,4 +7,4 @@ new:
 	@docker tag ${STAG} fchyla/simplesamlphp:latest 
 
 security:
-	@docker run --rm -v /var/run/docker.sock:/var/run/docker.sock goodwithtech/dockle:v0.2.4 ${STAG}
+	@docker run --rm -v /var/run/docker.sock:/var/run/docker.sock goodwithtech/dockle ${STAG}

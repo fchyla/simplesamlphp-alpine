@@ -1,6 +1,6 @@
 # docker build -t simplesamlphp .
 
-FROM alpine:3.11
+FROM alpine:3.15
 LABEL maintainer="filip@chy.la"
 LABEL description="SimpleSAMLphp application on Alpine based image with apache2 and php7."
 
